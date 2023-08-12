@@ -13,7 +13,7 @@ export default function Form() {
       lastName,
       email,
     };
-    fetch("https://test-37988-default-rtdb.firebaseio.com/userInfo", {
+    fetch("https://test-37988-default-rtdb.firebaseio.com/userInfo.json", {
       method: "post",
       body: JSON.stringify(userInfo),
     }).then((response) => {
