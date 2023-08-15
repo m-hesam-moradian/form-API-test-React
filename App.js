@@ -8,11 +8,11 @@ import Runner from "./components/runner";
 export default function App() {
   return (
     <div>
-      <Runner></Runner>
       <Routes>
         <Route path="/login" element={<Form />} />
         <Route path="/users" element={<Tabel />} />
       </Routes>
+      <Runner ></Runner>
     </div>
   );
 }

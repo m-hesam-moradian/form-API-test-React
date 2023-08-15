@@ -6,11 +6,19 @@ import { Button } from "@mui/material";
 export default function Runner() {
   return (
     <div>
-      <button color="secondary" variant="contained">
-        <Link  to="/login" >Form</Link>
+      <button
+        style={{ color: "white", margin: "1rem" }}
+        color="secondary"
+        variant="contained"
+      >
+        <Link to="/login" style={{ color: "white", margin: "2rem" }}>
+          Form
+        </Link>
       </button>
       <button color="secondary" variant="outlined">
-        <Link  to="/users" >Tabel</Link>
+        <Link to="/users" style={{ color: "white", margin: "2rem" }}>
+          Tabel
+        </Link>
       </button>
     </div>
   );
